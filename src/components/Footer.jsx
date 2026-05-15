@@ -21,7 +21,8 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li><Link to="/" className="hover:text-calce transition-colors">Home</Link></li>
             <li><Link to="/igna" className="hover:text-calce transition-colors">Igna</Link></li>
-            <li><Link to="/territorio" className="hover:text-calce transition-colors">Territorio</Link></li>
+            <li><Link to="/dintorni" className="hover:text-calce transition-colors">Dintorni</Link></li>
+            <li><Link to="/come-arrivare" className="hover:text-calce transition-colors">Come arrivare</Link></li>
             <li><a href="#contatti" className="hover:text-calce transition-colors">Prenota</a></li>
           </ul>
         </div>

@@ -4,9 +4,9 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 const closeMenu = (setOpen) => () => setOpen(false)
 
 const links = [
-  { to: '/', label: 'Home' },
   { to: '/igna', label: 'Igna' },
-  { to: '/territorio', label: 'Territorio' },
+  { to: '/dintorni', label: 'Dintorni' },
+  { to: '/come-arrivare', label: 'Come arrivare' },
 ]
 
 export default function Navbar() {

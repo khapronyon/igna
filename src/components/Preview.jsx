@@ -12,10 +12,10 @@ const cards = [
   },
   {
     label: '02',
-    title: 'Territorio',
+    title: 'Dintorni',
     text: 'La Gallura nord-orientale: arcipelaghi, borghi di granito, calette nascoste e paesaggi nuragici.',
-    to: '/territorio',
-    cta: 'Il territorio',
+    to: '/dintorni',
+    cta: 'I dintorni',
     img: 'https://images.unsplash.com/photo-1530870110042-98b2cb110834?auto=format&fit=crop&w=1200&q=80',
   },
   {
