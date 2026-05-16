@@ -1,26 +1,24 @@
 import Reveal from './Reveal.jsx'
 
+const IMG = 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80'
+
 export default function IgnaDescription() {
   return (
-    <section className="bg-calce-50 py-28 sm:py-40">
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 grid gap-20 md:grid-cols-2 items-center">
-        <Reveal className="order-2 md:order-1">
-          <div className="aspect-[4/5] overflow-hidden">
-            <img
-              src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80"
-              alt="Interno rustico"
-              loading="lazy"
-              className="w-full h-full object-cover"
-            />
-          </div>
+    <section className="bg-calce-50">
+      <div className="grid md:grid-cols-2 items-stretch min-h-[600px]">
+
+        <Reveal className="relative overflow-hidden min-h-[420px]">
+          <img
+            src={IMG}
+            alt="Interno Igna"
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="eager"
+          />
         </Reveal>
 
-        <div className="order-1 md:order-2 space-y-8">
-          <Reveal as="p" className="text-xs tracking-[0.32em] uppercase text-macchia">
-            La casa
-          </Reveal>
-          <Reveal as="h2" delay={1} className="font-display text-4xl sm:text-5xl text-granito-dark leading-[1.1]">
-            Due piani, un respiro lungo.
+        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 bg-calce-50">
+          <Reveal as="h2" delay={1} className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
+            Due piani,<br />un respiro lungo.
           </Reveal>
           <Reveal as="p" delay={2} className="text-granito text-lg leading-relaxed">
             Al piano terra una cucina vissuta, un ampio soggiorno e una zona
@@ -34,6 +32,7 @@ export default function IgnaDescription() {
             il ritmo lento di una vacanza autentica.
           </Reveal>
         </div>
+
       </div>
     </section>
   )

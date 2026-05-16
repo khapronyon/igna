@@ -1,8 +1,7 @@
 import PageHero from '../components/PageHero.jsx'
 import TerritorioIntro from '../components/TerritorioIntro.jsx'
-import Distances from '../components/Distances.jsx'
 import Experiences from '../components/Experiences.jsx'
-import BookingCTA from '../components/BookingCTA.jsx'
+import Distances from '../components/Distances.jsx'
 
 export default function Dintorni() {
   return (
@@ -14,9 +13,8 @@ export default function Dintorni() {
         image="https://images.unsplash.com/photo-1530870110042-98b2cb110834?auto=format&fit=crop&w=2000&q=80"
       />
       <TerritorioIntro />
-      <Distances />
       <Experiences />
-      <BookingCTA />
+      <Distances />
     </>
   )
 }

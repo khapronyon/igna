@@ -2,7 +2,6 @@ import PageHero from '../components/PageHero.jsx'
 import IgnaDescription from '../components/IgnaDescription.jsx'
 import Gallery from '../components/Gallery.jsx'
 import Amenities from '../components/Amenities.jsx'
-import BookingCTA from '../components/BookingCTA.jsx'
 
 export default function Igna() {
   return (
@@ -16,7 +15,6 @@ export default function Igna() {
       <IgnaDescription />
       <Gallery />
       <Amenities />
-      <BookingCTA />
     </>
   )
 }

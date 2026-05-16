@@ -1,7 +1,6 @@
 import PageHero from '../components/PageHero.jsx'
 import HowToArrive from '../components/HowToArrive.jsx'
 import Distances from '../components/Distances.jsx'
-import BookingCTA from '../components/BookingCTA.jsx'
 
 export default function ComeArrivare() {
   return (
@@ -14,7 +13,6 @@ export default function ComeArrivare() {
       />
       <HowToArrive />
       <Distances />
-      <BookingCTA />
     </>
   )
 }
