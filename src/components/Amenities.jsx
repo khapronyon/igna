@@ -18,7 +18,7 @@ export default function Amenities() {
     <section className="bg-calce-100">
       <div className="grid md:grid-cols-2 items-stretch min-h-[500px]">
 
-        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-6 text-center md:text-left">
+        <div className="flex flex-col justify-center px-10 sm:px-16 py-14 sm:py-20 space-y-6 text-center md:text-left">
           <Reveal as="h2" className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
             L'essenziale,<br />curato.
           </Reveal>
@@ -28,7 +28,7 @@ export default function Amenities() {
           </Reveal>
         </div>
 
-        <Reveal delay={1} className="flex flex-col justify-center px-10 sm:px-16 py-24">
+        <Reveal delay={1} className="flex flex-col justify-center px-10 sm:px-16 py-14 sm:py-20">
           <ul className="grid sm:grid-cols-2 gap-x-10 gap-y-5">
             {amenities.map((a) => (
               <li

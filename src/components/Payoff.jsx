@@ -2,7 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function Payoff() {
   return (
-    <section className="bg-calce-50 py-24 sm:py-32">
+    <section className="bg-calce-50 py-14 sm:py-20">
       <div className="max-w-3xl mx-auto px-6 sm:px-10 text-center">
         <Reveal as="h2" className="font-display text-4xl sm:text-6xl text-granito-dark leading-[1.1]">
           Il tuo ritiro in Gallura

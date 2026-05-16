@@ -11,7 +11,7 @@ const distances = [
 
 export default function Distances() {
   return (
-    <section className="bg-calce-50 py-28 sm:py-36">
+    <section className="bg-calce-50 py-14 sm:py-20">
       <div className="max-w-6xl mx-auto px-6 sm:px-10">
         <Reveal as="h2" className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.1] text-center mb-16">
           Vicini a tutto,<br />lontani dal rumore.

@@ -29,9 +29,9 @@ const cards = [
 
 export default function Preview() {
   return (
-    <section className="bg-calce-100 pt-20 sm:pt-28">
+    <section className="bg-calce-100 pt-12 sm:pt-16">
       <div className="max-w-7xl mx-auto px-6 sm:px-10">
-        <h2 className="font-display text-4xl sm:text-5xl text-granito-dark text-center leading-[1.1] mb-20">
+        <h2 className="font-display text-4xl sm:text-5xl text-granito-dark text-center leading-[1.1] mb-10">
           La casa, il territorio,<br />la tua vacanza.
         </h2>
       </div>

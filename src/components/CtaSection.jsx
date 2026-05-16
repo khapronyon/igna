@@ -2,7 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function CtaSection() {
   return (
-    <section className="bg-calce-50 py-28 sm:py-36">
+    <section className="bg-calce-50 py-14 sm:py-20">
       <div className="max-w-3xl mx-auto px-6 sm:px-10 text-center">
         <Reveal as="h2" className="font-display text-4xl sm:text-5xl text-granito-dark leading-[1.1]">
           La base ideale<br />per vivere la Costa Smeralda.
