@@ -19,7 +19,7 @@ export default function Intro() {
 
         <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 bg-calce-50">
           <Reveal as="h2" delay={1} className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
-            Un country retreat nel cuore della Gallura.
+            Un country retreat<br />nel cuore della Gallura.
           </Reveal>
           <Reveal as="p" delay={2} className="text-granito text-lg leading-relaxed">
             Nella campagna di Suldarana, dove il granito affiora dalla terra e

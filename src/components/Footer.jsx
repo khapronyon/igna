@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className="bg-granito-dark text-calce/85">
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-20 grid gap-12 md:grid-cols-3">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-20 grid gap-12 md:grid-cols-4">
         <div>
           <p className="font-display text-3xl text-calce mb-3">Igna</p>
           <p className="text-xs tracking-[0.32em] uppercase text-calce/60 mb-6">
             Country Retreat
           </p>
           <p className="text-sm leading-relaxed text-calce/70 max-w-xs">
-            Un rifugio nella campagna gallurese, tra granito e macchia mediterranea.
+            Un rifugio nella campagna gallurese, tra mare cristallino e macchia mediterranea.
           </p>
         </div>
 
@@ -29,15 +29,20 @@ export default function Footer() {
 
         <div>
           <p className="text-xs tracking-[0.32em] uppercase text-calce/60 mb-5">
-            Contatti
+            Dove siamo
           </p>
           <address className="not-italic text-sm leading-relaxed text-calce/80 space-y-2">
             <p>Suldarana</p>
             <p>Sant'Antonio di Gallura</p>
             <p>Sardegna, Italia</p>
           </address>
+        </div>
 
-          <div className="mt-6 flex gap-5 text-xs tracking-[0.28em] uppercase">
+        <div>
+          <p className="text-xs tracking-[0.32em] uppercase text-calce/60 mb-5">
+            Contatti
+          </p>
+          <div className="flex gap-5 text-xs tracking-[0.28em] uppercase">
             <a href="#" aria-label="Instagram" className="hover:text-calce transition-colors">Instagram</a>
             <a href="#" aria-label="Facebook" className="hover:text-calce transition-colors">Facebook</a>
           </div>
