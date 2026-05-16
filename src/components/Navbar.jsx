@@ -33,13 +33,18 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-10 flex items-center justify-between">
-        <Link to="/" className="block">
+        <Link to="/" className="flex items-center gap-3">
           <img
             src={`${import.meta.env.BASE_URL}images/Igna/logo.png`}
             alt="Igna Country Retreat"
             className="h-12 w-auto transition-all duration-300"
-            style={{ filter: transparent ? 'brightness(0) invert(1)' : 'brightness(0)' }}
+            style={{ filter: transparent ? 'brightness(0) invert(1)' : 'none' }}
           />
+          <span className={`font-display text-[0.65rem] tracking-[0.3em] uppercase align-middle transition-colors ${
+            transparent ? 'text-calce/80' : 'text-macchia'
+          }`}>
+            Country Retreat
+          </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
