@@ -20,7 +20,7 @@ export default function HowToArrive() {
     <section className="bg-calce-50">
       <div className="grid md:grid-cols-2 items-stretch min-h-[560px]">
 
-        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-4">
+        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-4 text-center md:text-left">
           <Reveal as="h2" className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
             Brevi<br />indicazioni.
           </Reveal>

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className="bg-granito-dark text-calce/85">
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-20 grid gap-12 md:grid-cols-4">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-20 grid gap-12 md:grid-cols-4 text-center md:text-left">
         <div>
           <img
             src={`${import.meta.env.BASE_URL}images/Igna/logo.png`}
             alt="Igna Country Retreat"
-            className="h-16 w-auto mb-6"
+            className="h-16 w-auto mb-6 mx-auto md:mx-0"
             style={{ filter: 'brightness(0) invert(1)' }}
           />
           <p className="text-sm leading-relaxed text-calce/70 max-w-xs">
@@ -44,7 +44,7 @@ export default function Footer() {
           <p className="text-xs tracking-[0.32em] uppercase text-calce/60 mb-5">
             Contatti
           </p>
-          <div className="flex gap-5 text-xs tracking-[0.28em] uppercase">
+          <div className="flex gap-5 text-xs tracking-[0.28em] uppercase justify-center md:justify-start">
             <a href="#" aria-label="Instagram" className="hover:text-calce transition-colors">Instagram</a>
             <a href="#" aria-label="Facebook" className="hover:text-calce transition-colors">Facebook</a>
           </div>

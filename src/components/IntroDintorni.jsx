@@ -8,7 +8,7 @@ export default function IntroDintorni() {
     <section className="bg-calce-100">
       <div className="grid md:grid-cols-2 items-stretch min-h-[600px]">
 
-        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 order-2 md:order-1">
+        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 order-2 md:order-1 text-center md:text-left">
           <Reveal as="h2" delay={1} className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
             Il silenzio di casa,<br />il mondo a portata di mano.
           </Reveal>

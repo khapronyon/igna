@@ -17,7 +17,7 @@ export default function Intro() {
           />
         </Reveal>
 
-        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 bg-calce-50">
+        <div className="flex flex-col justify-center px-10 sm:px-16 py-24 space-y-8 bg-calce-50 text-center md:text-left">
           <Reveal as="h2" delay={1} className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
             Un country retreat<br />nel cuore della Gallura.
           </Reveal>

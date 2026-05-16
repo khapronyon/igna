@@ -7,7 +7,7 @@ export default function PageHero({ eyebrow, title, subtitle, image }) {
       />
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-granito-dark/30 via-granito-dark/30 to-granito-dark/70" />
 
-      <div className="relative h-full max-w-7xl mx-auto px-6 sm:px-10 flex flex-col justify-end pb-20 sm:pb-28">
+      <div className="relative h-full max-w-7xl mx-auto px-6 sm:px-10 flex flex-col justify-end pb-20 sm:pb-28 text-center md:text-left">
         {eyebrow && (
           <p className="text-xs tracking-[0.4em] uppercase text-calce/85 mb-5 reveal is-visible">
             {eyebrow}
