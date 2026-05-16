@@ -5,10 +5,12 @@ export default function Footer() {
     <footer className="bg-granito-dark text-calce/85">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 py-20 grid gap-12 md:grid-cols-4">
         <div>
-          <p className="font-display text-3xl text-calce mb-3">Igna</p>
-          <p className="text-xs tracking-[0.32em] uppercase text-calce/60 mb-6">
-            Country Retreat
-          </p>
+          <img
+            src={`${import.meta.env.BASE_URL}images/Igna/logo.png`}
+            alt="Igna Country Retreat"
+            className="h-16 w-auto mb-6"
+            style={{ filter: 'brightness(0) invert(1)' }}
+          />
           <p className="text-sm leading-relaxed text-calce/70 max-w-xs">
             Un rifugio nella campagna gallurese, tra mare cristallino e macchia mediterranea.
           </p>
