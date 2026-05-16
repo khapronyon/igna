@@ -10,7 +10,7 @@ export default function IntroDintorni() {
 
         <div className="flex flex-col justify-center px-10 sm:px-16 py-14 sm:py-20 space-y-8 order-2 md:order-1 text-center md:text-left">
           <Reveal as="h2" delay={1} className="font-display text-3xl sm:text-5xl text-granito-dark leading-[1.15]">
-            Il silenzio di casa,<br />il mondo a portata di mano.
+            Il silenzio di casa,<br />il mondo<br className="md:hidden" /> a portata di mano.
           </Reveal>
           <Reveal as="p" delay={2} className="text-granito text-lg leading-relaxed">
             Igna è un rifugio in cui rallentare, ma non isolarsi. Dal cancello
